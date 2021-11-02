@@ -1,0 +1,38 @@
+.for{
+    background-color: antiquewhite;
+    margin:50px;
+    padding:50px;
+}
+
+.heading{
+    color:rgb(83, 25, 216);
+    font-style: bold;
+    margin-top:80px;
+    font-size:35px;
+}
+
+.head{
+    color:rgb(180, 11, 158);
+    font-style: italic;
+    font-size:17px;
+}
+
+.para{
+    color:rgba(3, 94, 11, 0.719);
+    font-style: bold;
+    font-size:20px;
+}
+
+.navb{
+    position: absolute;
+    padding:10px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+
+@media only screen and (max-width:400px){
+   * {
+        text-align: center;
+}
+}
