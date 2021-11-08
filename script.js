@@ -1,4 +1,4 @@
-function fun() {
+function add() {
     event.preventDefault()
     let a = parseFloat(document.getElementById("a").value);
     let b = parseFloat(document.getElementById("b").value);
