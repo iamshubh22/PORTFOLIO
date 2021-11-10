@@ -151,11 +151,23 @@
     height:15%;
   }
 
+  .hackerImage:hover {
+    /* width: 40.2%;
+    height: 40.2%; */
+    box-shadow: 0 0 50px #ffa588;
+  }
+
   .logo {
   width: 20%;
   height: 20%;
+  transition: 0.7s;
 }
-  
+
+  .logo img:hover {
+  transform: rotate(20deg);
+}
+
+
   #home .buttons {
     margin-top: 30px;
     text-align: center;
@@ -179,6 +191,16 @@
     background-color: #ffa588;
     color: black;
   }
+
+  .col {
+    /* border-left: 0.8px solid #9be27a; */
+    transition: 0.5s;
+  }
+  
+  .col img:hover {
+    transform: rotate(20deg);
+  }
+  
   
   section {
     background: #202124;
@@ -218,7 +240,13 @@
   .icons {
     padding-top: 10px;
     display: flex;
+    transition: 0.5s;
   }
+
+  .icons img:hover {
+    transform: rotate(20deg);
+  }
+
   .sm {
     margin-top: 10px;
   
@@ -371,21 +399,22 @@
   
   footer {
     background: #292b2e;
-    color: #fff;
-    padding: 30px 0;
-    text-align: center;
+  color: #fff;
+  padding: 30px 0;
+  text-align: left;
   }
   
   .copyright {
     
     font-size: 15px;
+  margin-bottom: 20px;
   
   }
   
   .copyright a {
     font-size: 16px;
-    color: #48dbfb;
-    font-weight: 500;
+  color: #48dbfb;
+  font-weight: 500;
   }
   
   .goTop {
@@ -653,4 +682,9 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.contact-icon img {
+  width: 25px;
+  height: 25px;
 }
