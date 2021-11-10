@@ -154,7 +154,7 @@
   .hackerImage:hover {
     /* width: 40.2%;
     height: 40.2%; */
-    box-shadow: 0 0 50px #ffa588;
+    box-shadow: 0 0 10px #ffa588;
   }
 
   .logo {
